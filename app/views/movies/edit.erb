@@ -1,0 +1,55 @@
+<h1>Edit Movie</h1>
+
+<div class="topnav">
+  <a class="active" href="/">Home</a>
+  <a href="/rentals/new">New Rental</a>
+  <a href="/rentals">All Rentals</a>
+  <a href="/customers/new">New Customer</a>
+  <a href="/customers">All Customers</a>
+  <a href="/movies/new">New Movie</a>
+  <a href="/movies">All Movies</a>
+</div><br>
+
+<style>
+h1   {color: yellow;
+    text-align:center}
+body {background-color: blue;
+        color: white;}
+         a:link {
+  color: white;
+}
+
+a:visited {
+  color: black;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav {
+  background-color: yellow;
+  overflow: hidden;
+}
+
+.topnav a:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: white;
+  color: black;
+}
+</style>
+
+<form method='post' action="/movies/<%=@movie.slug%>">
+<input type="hidden" name="_method" value="PATCH">
+<label>Movie Name: <input type='text' value='<%=@movie.name%>' name='name'></label>
+<input type='submit' value='Submit'>
+</form>

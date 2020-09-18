@@ -1,6 +1,7 @@
 $LOAD_PATH.unshift '.'
 require 'config/environment'
 
-use ApartmentsController
-use TenantsController
+use CustomerController
+use MovieController
+use RentalController
 run ApplicationController
