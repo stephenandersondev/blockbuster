@@ -29,7 +29,7 @@ Here you can add a new customer to the database.
 
 ![Create_Customer_Interface](https://github.com/stephenandersondev/Blockbuster-App/blob/master/img/create_customer.png?raw=true)
 
-You can also see a list of all customers.
+You can also see a list of all customers in the database.
 
 ![All_Customers_Interface](https://github.com/stephenandersondev/Blockbuster-App/blob/master/img/all_customers.png?raw=true)
 
@@ -41,11 +41,11 @@ Here you can add a new movie to the database.
 
 ![Create_Movie_Interface](https://github.com/stephenandersondev/Blockbuster-App/blob/master/img/create_movie.png?raw=true)
 
-You can also see a list of all movies.
+You can also see a list of all movies in the database.
 
 ![All_Movies_Interface](https://github.com/stephenandersondev/Blockbuster-App/blob/master/img/all_movies.png?raw=true)
 
-This is the Movie Details screen where you can see the name of the movie, and what customers have rented it in the past.
+This is the Movie Details screen where you can see the name of the movie, and which customers have rented it in the past.
 
 ![Customer_Details_Interface](https://github.com/stephenandersondev/Blockbuster-App/blob/master/img/movie_details.png?raw=true)
 
