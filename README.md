@@ -1,70 +1,56 @@
-# Apartment-app
+BlockBuster App 
+========================
 
-## Introduction
+![Blockbuster_Main_Interface](https://github.com/stephenandersondev/Blockbuster-App/blob/master/img/main.png?raw=true)
 
-We're going to build an app for Apartments
-create the following database structure:
+## About
 
-- You will have two models (and their corresponding tables) `Apartment` and `Tenant`,
-- A Tenant `belongs_to` an apartment and an apartment `has_many` tenants.
+This was a mini-project that I created in about 5 hours as part of week 4 of the Flatiron School Software Engineering program. This is a remake of the Blockbuster checkout system, I made it using a Ruby framework called Sinatra. Feel free to check the app out!
 
-## Instructions
+## Basic Usage
 
-#### Migrations
+At the main menu, you will see the Blockbuster logo. You can navigate to any of the screens from here.
 
-Write migrations to create the following tables:
+![Blockbuster_Main_Interface](https://github.com/stephenandersondev/Blockbuster-App/blob/master/img/main.png?raw=true)
 
-**Apartments**
+Here you can create a new rental by selecting an existing customer and movie.
 
-| **id** |      **address**      |
-| :----: | :----------------: |
-|   1    | Suite 981 1795 Leida Fords, Nataliemouth, TN 14377-4979 |
-|   2    | 7768 David Avenue, Greenside, PA 67475-3655 |
+![New_Rental_Interface](https://github.com/stephenandersondev/Blockbuster-App/blob/master/img/new_rental.png?raw=true)
 
-**Tenants**
+Here you can see a list of all rentals. You will see the customer, the movie, whether it's been returned, when it was checked-out, and a button to see the details of that specific rental.
 
-| **id** |        **name**         | **apartment_id** |
-| :----: | :---------------------: | :------------ |
-|   1    | Casie Effertz | 1 |
-|   2    | Dorris Bogan | 5 | 
-|   3    | Bernie Schiller | 4 |
-|   4    | Manie Dare | 10 |
+![All_Rentals_Interface](https://github.com/stephenandersondev/Blockbuster-App/blob/master/img/all_rentals.png?raw=true)
 
-##### Seed data
+Here you can see the details of a specific rental. It's also where you will return a rental.
 
-After your Active Record models have been properly defined, you can load the
-seed data by running `rake db:seed`.
+![Rental_Details_Interface](https://github.com/stephenandersondev/Blockbuster-App/blob/master/img/rental_details.png?raw=true)
 
-#### Deliverables
-> It may be helpful to write a list of the routes and views you'll need before you begin.
+Here you can add a new customer to the database.
 
-A user should be able to:
+![Create_Customer_Interface](https://github.com/stephenandersondev/Blockbuster-App/blob/master/img/create_customer.png?raw=true)
 
-* **Edit a tennant**
-    * Change the name of the tennant
-    * Change the apartment the tennant lives in
-* **See the details of a specific apartment**
-    * See the apartment's address
-    * See a list of the tennants living in the apartment
-    * NOTE: You will need an ID in the path for this page!
-* **See a list of all tennants**
-    * Click on a tennant to go to the tennants edit page
-* **See a list of all apartments**
-    * Click on a apartment to go to the apartment details page
-* **Create a new apartment**
-    * With it's address
-    * After creating the apartment, send the user to see the list of all apartments
-* **Create a new tennant**
-    * With their name
-    * After creating the tennant, send the user to see the list of all tennants
-* **Delete an apartment**
-    * Then send the user to see the list of all apartments
-* **Delete a tennant**
-    * Then send the user to see the list of all tennants
-* **Navigate your application using links instead of typing in the URL bar**
+You can also see a list of all customers.
 
-#### Demo:
+![All_Customers_Interface](https://github.com/stephenandersondev/Blockbuster-App/blob/master/img/all_customers.png?raw=true)
 
-* There might be some extra features in demo:
+This is the Customer Details screen where you can see their name, what they rented in the past, and also what their late fee balance is. The late fee balance is calculated based on the difference between the check-out time of their rentals and the time the rental was returned. Multiple rentals will increment this amount.
 
-![Final Demo](https://i.imgur.com/O1ayQkw.gif)
+![Customer_Details_Interface](https://github.com/stephenandersondev/Blockbuster-App/blob/master/img/customer_details.png?raw=true)
+
+Here you can add a new movie to the database.
+
+![Create_Movie_Interface](https://github.com/stephenandersondev/Blockbuster-App/blob/master/img/create_movie.png?raw=true)
+
+You can also see a list of all movies.
+
+![All_Movies_Interface](https://github.com/stephenandersondev/Blockbuster-App/blob/master/img/all_movies.png?raw=true)
+
+This is the Movie Details screen where you can see the name of the movie, and what customers have rented it in the past.
+
+![Customer_Details_Interface](https://github.com/stephenandersondev/Blockbuster-App/blob/master/img/movie_details.png?raw=true)
+
+I hope you enjoy it! 😊
+
+
+
+

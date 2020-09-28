@@ -1,5 +1,4 @@
 class CustomerController < ApplicationController
-
   get "/customers" do
     @customers = Customer.all
     erb :'customers/index'
