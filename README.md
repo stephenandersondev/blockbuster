@@ -5,7 +5,7 @@ BlockBuster App
 
 ## About
 
-This was a mini-project that I created in about 5 hours as part of week 4 of the Flatiron School Software Engineering program. This is a remake of the Blockbuster checkout system, I made it using a Ruby framework called Sinatra. Feel free to check the app out!
+Blockbuster checkout system made with Sinatra. 5-hour mini project.
 
 ## Basic Usage
 
