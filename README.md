@@ -1,4 +1,4 @@
-BlockBuster App 
+BlockBuster 
 ========================
 
 ![Blockbuster_Main_Interface](https://github.com/stephenandersondev/Blockbuster-App/blob/master/img/main.png?raw=true)
